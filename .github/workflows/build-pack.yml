@@ -1,0 +1,28 @@
+name: Build and Release Resource Pack
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write  # Releaseを作成するために必要
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create ZIP archive
+        run: |
+          cd server-resourcepack
+          zip -r "../ANLINEWORLD BGMPACK.zip" ./*
+
+      - name: Upload to GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest Resource Pack
+          files: ANLINEWORLD BGMPACK.zip
