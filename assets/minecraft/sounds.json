@@ -3,5 +3,6 @@
 "quest_start":{"category": "master","sounds": [{"name": "custom/quest/queststart"}]},
 "storybgm1":{"category": "master","sounds": [{"name": "custom/story/peritunestory1"}]},
 "dungeonbgm1":{"category": "master","sounds": [{"name": "custom/dungeon/peritunedungeon1"}]},
-"environmentbgm1":{"category": "master","sounds": [{"name": "custom/environment/haito"}]}
+"environmentbgm1":{"category": "master","sounds": [{"name": "custom/environment/haito"}]},
+"environmentbgm2":{"category": "master","sounds": [{"name": "custom/environment/ts"}]}
 }
