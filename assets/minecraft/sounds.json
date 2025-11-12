@@ -4,5 +4,6 @@
 "storybgm1":{"category": "master","sounds": [{"name": "custom/story/peritunestory1"}]},
 "dungeonbgm1":{"category": "master","sounds": [{"name": "custom/dungeon/peritunedungeon1"}]},
 "environmentbgm1":{"category": "master","sounds": [{"name": "custom/environment/haito"}]},
-"environmentbgm2":{"category": "master","sounds": [{"name": "custom/environment/ts"}]}
+"environmentbgm2":{"category": "master","sounds": [{"name": "custom/environment/ts"}]},
+"environmentbgm3":{"category": "master","sounds": [{"name": "custom/environment/ts1"}]}
 }
